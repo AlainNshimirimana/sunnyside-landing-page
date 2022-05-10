@@ -1,0 +1,48 @@
+/* .header-container{
+    background-image: url("/src/components/images/desktop/image-header.jpg");
+} */
+.header-container{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+.HeaderBG{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.HeaderImgBG{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.companyName{
+    z-index: 9;
+}
+.menu{
+    z-index: 9;
+    justify-content: flex-end;
+    right: 0;
+    display: table;
+    margin: 0 auto;
+}
+.menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu-list li{
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
