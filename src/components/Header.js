@@ -7,10 +7,8 @@ import ArrowDown from './images/icon-arrow-down.svg';
 function Header(){
     return(
         <div className='head-content'>
-            <div className='header-container'>
-                <div className='HeaderBG'>
-                    <img alt='Header logo' className='HeaderImgBG' src={ImageHeader}/>
-                </div>
+            <div className='header-container' style={{backgroundImage: `url(${ImageHeader})`}}>
+                
                 <div className='companyName'>
                     <img alt='agency logo' src={AgencyLogo} className='agencyLogo'/>
                 </div>
