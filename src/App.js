@@ -1,10 +1,14 @@
 import React from "react";
 import Header from './components/Header';
+import BodyTop from './components/BodyTop';
 
 function App(){
     
     return(
-        <Header/>
+        <div>
+            <Header />
+            <BodyTop />
+        </div>
     )
 }
 

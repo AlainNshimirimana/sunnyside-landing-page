@@ -1,0 +1,9 @@
+.bodyTop{
+    position:absolute;
+    display: flex;
+    width: 100%;
+}
+.squares{
+    flex: 1;
+    width: 50%;
+}
