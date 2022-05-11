@@ -1,6 +1,7 @@
 /* .header-container{
     background-image: url("/src/components/images/desktop/image-header.jpg");
 } */
+
 .header-container{
     width: 100%;
     position: relative;
@@ -8,13 +9,14 @@
     left: 0;
     right: 0;
     display: flex;
+    clear: both;
 }
 .HeaderBG{
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
-    z-index: -9;
+    z-index: -1;
 }
 .HeaderImgBG{
     width: 100%;
@@ -22,11 +24,8 @@
     left: 0;
     right: 0;
 }
-.companyName{
-    z-index: 9;
-}
 .menu{
-    z-index: 9;
+    position: absolute;
     justify-content: flex-end;
     right: 0;
     display: table;
