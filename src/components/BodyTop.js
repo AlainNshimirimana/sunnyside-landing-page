@@ -16,13 +16,16 @@ function BodyTop(){
                 </p><br/>
                 <h4>Learn More</h4>
             </div>
-
-            <div className='squares'>
-                <img src={Egg} alt='an egg with yellow background' className='squares-img'/>
+            <div className='img-boxes yellow-egg'>
+                <div>
+                    <img src={Egg} alt='an egg with yellow background' className='squares-img-egg'/>
+                </div>
             </div>
 
-            <div className='squares'>
-                <img alt='a pink glass' src={StrawbGlass} className='squares-img'/>
+            <div className='img-boxes strawberry-glass'>
+                <div>
+                    <img alt='a pink glass' src={StrawbGlass} className='squares-img'/>
+                </div>
             </div>
 
             <div className='squares'>
@@ -33,11 +36,16 @@ function BodyTop(){
                 <h4>Learn More</h4>
             </div>
 
-            <div className='squares'>
-                <img src={Cherries} alt='cherries' className='squares-img'/>
+            <div className='img-boxes cherries'>
+                <div>
+                    <img src={Cherries} alt='cherries' className='squares-img'/>
+                </div>
             </div>
-            <div className='squares'>
-                <img src={Orange} alt='an orange' className='squares-img'/>
+
+            <div className='img-boxes orange'>
+                <div>
+                    <img src={Orange} alt='an orange' className='squares-img'/>
+                </div>
             </div>
         </div>
     )

@@ -12,11 +12,30 @@
   width: 50%;
   height: auto;
   background-color: white;
+  min-height: 30vh;
 }
+  .img-boxes{
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .yellow-egg{
+    background-color: #FFD602;
+  }
+  .strawberry-glass{
+      background-color: #FF6D60;
+  }
 .squares-img{
     width: 100%;
 }
-
+.cherries{
+    background-color: #95D7CB;
+}
+.orange{
+    background-color: #63CBFF;
+}
 .squares h3, p, h4{
     text-align: center;
 }
