@@ -27,15 +27,64 @@
   .strawberry-glass{
       background-color: #FF6D60;
   }
-.squares-img{
-    width: 100%;
-}
 .cherries{
     background-color: #95D7CB;
 }
 .orange{
     background-color: #63CBFF;
 }
-.squares h3, p, h4{
+
+/* TEXT STYLING*/
+.squares h3, p, h4, h2{
     text-align: center;
+    line-height: 1.5em;
 }
+
+h2, h3, h4{
+  font-family: Fraunces;
+}
+
+.phototext{
+  color: hsl(198, 62%, 26%);
+}
+
+.graphictext{
+  color: hsl(167, 40%, 24%);
+}
+
+p{
+  font-family: Barlow;
+  font-size: large;
+}
+h2{
+  font-size: 18pt;
+}
+
+/* .oc-container{
+  position: static;
+}
+.cherryOrange, .imgText{
+  position: absolute;
+}
+.imgText{
+  z-index: 10;
+} */
+
+.BGimgs{
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 40vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BGimgs div{
+  align-self: flex-end;
+}
+

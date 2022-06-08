@@ -17,14 +17,12 @@ function BodyTop(){
                 <h4>Learn More</h4>
             </div>
             <div className='img-boxes yellow-egg'>
-                <div>
-                    <img src={Egg} alt='an egg with yellow background' className='squares-img-egg'/>
+                <div className='BGimgs' style={{backgroundImage: `url(${Egg})`}}>
                 </div>
             </div>
 
             <div className='img-boxes strawberry-glass'>
-                <div>
-                    <img alt='a pink glass' src={StrawbGlass} className='squares-img'/>
+                <div className='BGimgs' style={{backgroundImage: `url(${StrawbGlass})`}}>
                 </div>
             </div>
 
@@ -36,15 +34,30 @@ function BodyTop(){
                 <h4>Learn More</h4>
             </div>
 
-            <div className='img-boxes cherries'>
-                <div>
-                    <img src={Cherries} alt='cherries' className='squares-img'/>
+            
+            <div className='img-boxes cherries oc-container'>
+                <div className='BGimgs' style={{backgroundImage: `url(${Cherries})`}}>
+                    <div className='graphictext'>
+                        <h2>Graphic Design</h2>
+                        <p>
+                            Great design makes you memorable. We deliver <br/>
+                            artwork that underscores your brand message<br/>
+                            and captures potential clients' attention.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div className='img-boxes orange'>
-                <div>
-                    <img src={Orange} alt='an orange' className='squares-img'/>
+            <div className='img-boxes orange oc-container'>
+                <div className='BGimgs' style={{backgroundImage: `url(${Orange})`}}>
+                    <div className='phototext'>
+                        <h2>Photography</h2>
+                        <p>
+                            Increase your credibility by getting the most <br/>
+                            stunning, high-quality photos that improve your <br/>
+                            business image.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
