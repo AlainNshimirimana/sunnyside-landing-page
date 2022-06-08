@@ -10,9 +10,10 @@ function BodyTop(){
         <div className='bodyTop'>
 
             <div className='squares'>
-                <h3>Transform your brand</h3>
-                <p>We area full-service creative agency specializing in helping brands grow fast. Engage your clients
-                    through compelling visuals that do most of the marketing for you.
+                <h2>Transform your <br/>brand</h2>
+                <p>We area full-service creative agency specializing in <br/>
+                 helping brands grow fast. Engage your clients <br/>
+                 through compelling visuals that do most of the marketing for you.
                 </p><br/>
                 <h4>Learn More</h4>
             </div>
@@ -27,9 +28,10 @@ function BodyTop(){
             </div>
 
             <div className='squares'>
-                <h3>Stand out to the right audience</h3>
-                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
-                     we'll build and extend your brand in digital places.
+                <h2>Stand out to the right <br/> audience</h2>
+                <p>Using a collaborative formula of designers, researchers,<br/> 
+                photographers, videographers, and copywriters, we'll <br/> 
+                build and extend your brand in digital places.
                 </p>
                 <h4>Learn More</h4>
             </div>
@@ -38,7 +40,7 @@ function BodyTop(){
             <div className='img-boxes cherries oc-container'>
                 <div className='BGimgs' style={{backgroundImage: `url(${Cherries})`}}>
                     <div className='graphictext'>
-                        <h2>Graphic Design</h2>
+                        <h3>Graphic Design</h3>
                         <p>
                             Great design makes you memorable. We deliver <br/>
                             artwork that underscores your brand message<br/>
@@ -51,7 +53,7 @@ function BodyTop(){
             <div className='img-boxes orange oc-container'>
                 <div className='BGimgs' style={{backgroundImage: `url(${Orange})`}}>
                     <div className='phototext'>
-                        <h2>Photography</h2>
+                        <h3>Photography</h3>
                         <p>
                             Increase your credibility by getting the most <br/>
                             stunning, high-quality photos that improve your <br/>

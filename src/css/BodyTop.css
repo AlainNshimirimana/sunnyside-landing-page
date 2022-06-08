@@ -46,17 +46,28 @@ h2, h3, h4{
 
 .phototext{
   color: hsl(198, 62%, 26%);
+  text-align: center;
 }
 
 .graphictext{
   color: hsl(167, 40%, 24%);
+  text-align: center;
 }
 
 p{
   font-family: Barlow;
-  font-size: large;
+  font-size: 18px;
 }
 h2{
+  color: hsl(212, 27%, 19%);
+  font-size: 24pt;
+  font-weight: 900;
+}
+.squares p{
+  color: hsl(232, 10%, 55%);
+}
+
+h3{
   font-size: 18pt;
 }
 
