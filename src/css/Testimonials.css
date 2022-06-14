@@ -1,9 +1,51 @@
-h3{
+.test-h3{
     font-family: Fraunces;
     text-align: center;
-    color: hsl(232, 10%, 55%);
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 4px;
 }
 
 .testimonials{
-    margin: 100px 0;
+    margin: 100px 15%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-arrange{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.testimonial-arrange div{
+    align-content: center;
+    text-align: center;
+}
+
+.client-commnet{
+    font-family: Barlow;
+    font-size: 18px;
+    color: hsl(232, 10%, 55%);
+    text-align: center;
+  }
+.test-h4{
+    color: hsl(212, 27%, 19%);
+    font-family: Fraunces;
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.test-img{
+    border-radius: 50%;
+}
+
+.job-title{
+    color: hsl(210, 4%, 67%);
+    margin-top: 0;
+    line-height: 1.5em;
+    font-size: medium;
+}
+
+.client-commnet{
+    margin: 55px 0;
 }
