@@ -34,12 +34,32 @@
     text-align: center;
     text-decoration: none;
     padding: 16px;
-    font-size: 14pt;
+    font-size: 12pt;
+    font-family: Barlow;
 }
 
 .arrow-text{
-    margin: auto;
+    margin: 8% auto ;
     align-content: center;
+    text-align: center;
     color: white;
+}
+h1{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 30pt;
+    letter-spacing: .5em;
+    margin-top: 0;
+}
+
+.companyName{
+    height: 55px;
+}
+
+.arrow{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 15%;
 }
 

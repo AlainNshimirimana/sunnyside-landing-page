@@ -1,6 +1,7 @@
 .img-gallery{
     display: inline-block;
     width: 100%;
+    background-color: #81d1c1;
 }
 
 .img-gallery img{
